@@ -14,6 +14,7 @@ if __name__ == '__main__':
     executor.start_polling(db, skip_updates=True)
 
 
+
 # executor #для запуска бота
 # logging выввод рассширеной инфрмации
 # decouple для сокрытия определенной информации
