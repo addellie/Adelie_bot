@@ -4,6 +4,7 @@ from config import db
 
 from handler import client, callback, admin, extra, fsm_anketa
 
+
 fsm_anketa.reg_hand_anketa(db)
 callback.reg_hand_callback(db)
 client.reg_client(db)
